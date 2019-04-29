@@ -1,0 +1,27 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Aplikasi ini adalah tugas di week 1 phase 2. Fitur utamanya adalah :   - Menyimpan todo list berdasarkan user   - Mengedit todo list berdasarkan user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daring-fox-2019/rest-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daring-fox-2019/rest-api/issues"
+  },
+  "homepage": "https://github.com/daring-fox-2019/rest-api#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^7.10.0",
+    "sequelize": "^5.7.6"
+  }
+}
